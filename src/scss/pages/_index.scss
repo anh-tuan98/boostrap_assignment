@@ -1,0 +1,14 @@
+.index-page {
+  &__section-first {
+    background-image: url("../images/Rectangle.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  &__section-second {
+    background-color: $primary-bg-color;
+  }
+
+  &__section-last {
+    background-color: #343a40;
+  }
+}

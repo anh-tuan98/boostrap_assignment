@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "MerriweatherSans";
+  src: url("~fonts/MerriweatherSans-Regular.eot");
+  src: url("~fonts/MerriweatherSans-Regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("~fonts/MerriweatherSans-Regular.woff2") format("woff2"),
+    url("~fonts/MerriweatherSans-Regular.woff") format("woff"),
+    url("~fonts/MerriweatherSans-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Merriweather";
+  src: url("~fonts/Merriweather-Regular.eot");
+  src: url("~fonts/Merriweather-Regular.eot?#iefix") format("embedded-opentype"),
+    url("~fonts/Merriweather-Regular.woff2") format("woff2"),
+    url("~fonts/Merriweather-Regular.woff") format("woff"),
+    url("~fonts/Merriweather-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html,
+body {
+  font-family: "MerriweatherSans";
+  font-weight: 400;
+  font-size: 16px;
+}
+
+$font: "Merriweather";
+
+.h-head {
+  font-size: 36px;
+  line-height: 43px;
+  text-align: center;
+  text-transform: uppercase;
+  color: $primary-color;
+}
+
+.h-text {
+  font-size: 31px;
+  line-height: 38px;
+  text-align: center;
+  color: $primary-color;
+}
+
+.p-text {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: $primary-p-color;
+}
+
+.a-text {
+  font-size: 32px;
+  line-height: 38px;
+  text-align: center;
+  color: $at-color;
+}
+
+.a1-text {
+  font-size: 23px;
+  line-height: 29px;
+  text-align: center;
+  color: $at-color;
+}
+
+.p1-text {
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: $f-color;
+}
+
+.f-text {
+  font-size: 12px;
+  line-height: 19px;
+  text-align: center;
+  color: $f-color;
+}
