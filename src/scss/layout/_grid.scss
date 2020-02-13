@@ -1,0 +1,69 @@
+@include respond-above(lg) {
+  .header {
+    background-color: transparent;
+
+    .navbar {
+      background-color: transparent;
+
+      &__heading {
+        color: rgba(255, 255, 255, 0.7);
+        background-color: transparent;
+
+        &:hover {
+          color: $primary-color;
+        }
+      }
+
+      .nav__item {
+        background-color: transparent;
+
+        color: rgba(255, 255, 255, 0.7);
+
+        .nav-link {
+          color: rgba(255, 255, 255, 0.7);
+
+          &:hover {
+            color: $primary-color;
+          }
+        }
+      }
+    }
+  }
+  .intro {
+    &__heading {
+      font-size: 48px;
+      line-height: 58px;
+      text-transform: uppercase;
+      color: $primary-color;
+      padding: 220px 2px 2px 2px;
+    }
+    &__para {
+      padding: 30px 200px 44px 200px;
+    }
+  }
+}
+
+@include respond-below(lg) {
+  .header {
+    background-color: $primary-color;
+
+    .navbar {
+      background-color: $primary-color;
+      margin: auto;
+      position: fixed;
+      width: 100%;
+      top: 0px;
+      left: 0px;
+
+      &__heading {
+        background-color: $primary-color;
+      }
+
+      .nav-link {
+        &:hover {
+          color: $primary-bg-color;
+        }
+      }
+    }
+  }
+}

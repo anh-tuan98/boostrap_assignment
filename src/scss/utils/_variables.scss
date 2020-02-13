@@ -1,0 +1,36 @@
+$primary-color: #ffffff;
+$primary-bg-color: #f4623a;
+$primary-text-color: rgba(255, 255, 255, 0.7);
+$primary-p-color: rgba(255, 255, 255, 0.5);
+$at-color: #212529;
+$f-color: #6c757d;
+$bc-color: #f8f9fa;
+
+$button-colors: (
+  primary: (
+    color: #ffffff,
+    color-hover: #ffffff,
+    bg-color: #2f55d4,
+    bg-color-hover: #2443ac,
+    border-color: #2f55d4
+  ),
+  default: (
+    color: #2f55d4,
+    color-hover: #ffffff,
+    bg-color: #ffffff,
+    bg-color-hover: #2f55d4,
+    border-color: #2f55d4
+  )
+);
+
+$breakpoints: (
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+$sm: map-get($breakpoints, "sm");
+$md: map-get($breakpoints, "md");
+$lg: map-get($breakpoints, "lg");
+$xl: map-get($breakpoints, "xl");
